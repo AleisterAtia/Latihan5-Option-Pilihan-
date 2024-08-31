@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProgramKasir">
+
+    <EditText
+        android:id="@+id/inputTb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Inputkan Total Belanaja!"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hitung Total Diskon"
+        android:layout_margin="20dp"
+        android:id="@+id/btntd"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Diskon"
+        android:gravity="center"
+        android:id="@+id/tvTd"
+        android:textSize="20dp"/>
+
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:layout_marginTop="400dp"
+        android:layout_marginHorizontal="20dp"
+        android:backgroundTint="#BC0808"
+        android:id="@+id/btnhome"/>
+
+</LinearLayout>

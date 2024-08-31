@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PermukaanDanVolume">
+
+    <EditText
+        android:id="@+id/etPanjang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Inputkan Panjang"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/etLebar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Inputkan Lebar "
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/etTinggi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Inputkan Tinggi"
+        android:inputType="number" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/btnLuas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="Hitung Luas"
+        android:layout_marginHorizontal="10dp" />
+
+        <Button
+            android:id="@+id/btnVolume"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Hitung Volume"
+            android:layout_marginHorizontal="10dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hasil :"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:id="@+id/tvHasil"/>
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:layout_marginTop="400dp"
+        android:backgroundTint="#BC0808"
+        android:layout_marginHorizontal="20dp"
+        android:id="@+id/btnhome"/>
+
+</LinearLayout>

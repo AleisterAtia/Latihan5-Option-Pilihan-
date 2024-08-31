@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProgramPython">
+
+    <EditText
+        android:id="@+id/etBil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Inputkan Bilangan Bulat"
+        android:inputType="number" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check Here!"
+        android:layout_margin="25dp"
+        android:id="@+id/btnPress"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvTampil"
+        android:text="TampilDisini!"
+        android:gravity="center"/>
+
+
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:layout_marginTop="400dp"
+        android:layout_marginHorizontal="20dp"
+        android:backgroundTint="#BC0808"
+        android:id="@+id/btnhome"/>
+
+</LinearLayout>
